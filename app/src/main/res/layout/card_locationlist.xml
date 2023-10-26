@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EADAFB"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|start"
+            android:background="@drawable/round_button_background"
+            android:padding="5dp"
+            android:src="@drawable/baseline_person_24" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patel Vansh"
+                android:textColor="#323232"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_mobno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 84011 38433"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vanshkpatel21@gnu.ac.in"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suryadeep Residency Nikol Naroda Road Ahmedabad-382350"
+                android:textSize="14sp"
+                android:minLines="1"
+                android:maxLines="2"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/round_button_background"
+            android:backgroundTint="#6200EE"
+            android:src="@drawable/baseline_location_24" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
