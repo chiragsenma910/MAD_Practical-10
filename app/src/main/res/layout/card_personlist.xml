@@ -35,7 +35,7 @@
                 android:id="@+id/txt_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Patel Vansh"
+                android:text="Patel Smit"
                 android:textColor="#323232"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -44,21 +44,21 @@
                 android:id="@+id/txt_mobno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+91 84011 38433"
+                android:text=""
                 android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/txt_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vanshkpatel21@gnu.ac.in"
+                android:text=""
                 android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/txt_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Suryadeep Residency Nikol Naroda Road Ahmedabad-382350"
+                android:text=""
                 android:textSize="14sp"
                 android:minLines="1"
                 android:maxLines="2"
@@ -66,6 +66,7 @@
         </LinearLayout>
 
         <ImageButton
+            android:id="@+id/btn_map"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center_vertical|end"

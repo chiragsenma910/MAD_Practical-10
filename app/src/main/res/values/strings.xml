@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MAD_Practical_10_106_5b6</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
